@@ -35,9 +35,9 @@ etc...
 ```
 #### Get Hex Code from RGB
 ```node.js
-colorConverter.getHexRGB(255, 0, 0); // `#ff0000`
-colorConverter.getHexRGB(0, 0, 255); // `#0000ff`
-colorConverter.getHexRGB(0, 255, 0); // `#00ff00`
+colorConverter.getHexRGB(255, 0, 0); `#ff0000`
+colorConverter.getHexRGB(0, 0, 255); `#0000ff`
+colorConverter.getHexRGB(0, 255, 0); `#00ff00`
 
 etc...
 ```
