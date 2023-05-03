@@ -4,7 +4,9 @@
 name: Github Package
 
 on:
-  [push]
+  push:
+    branches:
+      - main
 
 jobs:
   build:
