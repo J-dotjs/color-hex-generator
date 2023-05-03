@@ -1,3 +1,5 @@
+[![Github Package](https://github.com/J-dotjs/color-code-converter/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/J-dotjs/color-code-converter/actions/workflows/npm-publish-github-packages.yml)
+
 # color-code-converter
 Converts to the specified color code between different color codes
 
