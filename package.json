@@ -1,6 +1,6 @@
 {
   "name": "@j-dotjs/color-code-converter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Converts to the specified color code between different color codes",
   "main": "index.js",
   "repository": {
