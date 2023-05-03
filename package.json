@@ -1,0 +1,19 @@
+{
+  "name": "color-hex-generator",
+  "version": "1.0.0",
+  "description": "Generates the hex for specified color",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-dotjs/color-hex-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J-dotjs/color-hex-generator/issues"
+  },
+  "homepage": "https://github.com/J-dotjs/color-hex-generator#readme"
+}
