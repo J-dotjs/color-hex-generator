@@ -1,4 +1,4 @@
-exports.getHexStr = function (color) {
+function getHexStr(color) {
   var hex;
   color = color.toUpperCase();
   if(color === "RED"){
@@ -42,3 +42,5 @@ exports.getHexStr = function (color) {
   }
   return hex;
 }
+
+module.exports = { getHexStr };
