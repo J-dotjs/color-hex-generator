@@ -1,5 +1,5 @@
-# color-hex-generator
-Generates the hex for specified color
+# color-code-converter
+Converts to the specified color code between different color codes
 
 ## Table of Contents
 - [Installation](#installation)
@@ -11,18 +11,18 @@ Generates the hex for specified color
 
 ## Installation
 
-npm i @j-dotjs/color-hex-generator
+npm i @j-dotjs/color-code-generator
 
 ## Initialization
 ```node.js
-const colorHexGenerator = require('@j-dotjs/color-hex-generator');
+const colorConverter = require('@j-dotjs/color-code-generator');
 ```
 
 ## Usage
 ```node.js
-colorHexGenerator.getHexStr('red'); // #ff0000
-colorHexGenerator.getHexStr('blue'); // #0000ff
-colorHexGenerator.getHexStr('green'); // #00ff00
+colorConverter.getHexStr('red'); // #ff0000
+colorConverter.getHexStr('blue'); // #0000ff
+colorConverter.getHexStr('green'); // #00ff00
 
 etc...
 ```
