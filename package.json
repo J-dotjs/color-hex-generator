@@ -1,6 +1,6 @@
 {
   "name": "@j-dotjs/color-hex-generator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Generates the hex for specified color",
   "main": "index.js",
   "repository": {
