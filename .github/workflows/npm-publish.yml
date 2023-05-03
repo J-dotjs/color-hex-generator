@@ -28,6 +28,9 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm i
       - run: npm ci
+      - run: |
+          echo "@j-dotjs:registry=https://registry.npmjs.org/" >> .npmrc
+          echo "registry=https://registry.npmjs.org/" >> .npmrc
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
