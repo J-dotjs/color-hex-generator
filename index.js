@@ -43,4 +43,14 @@ function getHexStr(color) {
   return hex;
 }
 
-module.exports = { getHexStr };
+function getHexRGB(r, g, b) {
+  var hex = "#";
+  console.log(r.toString(16).length, g.toString(16).length, b.toString(16).length);
+  hex += r.toString(16).length === 1 ? "0" + r.toString(16) : r.toString(16); 
+  hex += g.toString(16).length === 1 ? "0" + g.toString(16) : g.toString(16); 
+  hex += b.toString(16).length === 1 ? "0" + b.toString(16) : b.toString(16); 
+  return hex;
+}
+
+
+module.exports = { getHexStr, getHexRGB };
