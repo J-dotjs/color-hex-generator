@@ -17,7 +17,7 @@ Converts to the specified color code between different color codes
 
 ## Installation
 
-npm i @j-dotjs/color-code-converter
+npm i @j-dotjs/color-code-converter OR npm install @j-dotjs/color-code-converter@X.X.X
 
 ## Initialization
 ```node.js

@@ -58,5 +58,10 @@ function getStrHex(hex){
   return
 }
 
+function getRGBHex(hex){
+  var r, g, b
+  return
+}
 
-module.exports = { getHexStr, getHexRGB, getStrHex };
+
+module.exports = { getHexStr, getHexRGB, getStrHex, getRGBHex };
