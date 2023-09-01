@@ -13,6 +13,8 @@ function getHexStr(color) {
     hex = "#000000";
   } else if(color === "YELLOW"){
     hex = "#FFFF00";
+  } else if(color === "ORANGE"){
+    hex = "#FFA500"
   } else if(color === "CYAN"){
     hex = "#00FFFF";
   } else if(color === "MAGENTA"){
@@ -45,12 +47,16 @@ function getHexStr(color) {
 
 function getHexRGB(r, g, b) {
   var hex = "#";
-  console.log(r.toString(16).length, g.toString(16).length, b.toString(16).length);
   hex += r.toString(16).length === 1 ? "0" + r.toString(16) : r.toString(16); 
   hex += g.toString(16).length === 1 ? "0" + g.toString(16) : g.toString(16); 
   hex += b.toString(16).length === 1 ? "0" + b.toString(16) : b.toString(16); 
   return hex;
 }
 
+function getStrHex(hex){
+  var str
+  return
+}
 
-module.exports = { getHexStr, getHexRGB };
+
+module.exports = { getHexStr, getHexRGB, getStrHex };
