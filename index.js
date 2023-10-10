@@ -21,7 +21,7 @@ function getHexStr(color) {
     hex = "#FF00FF";
   } else if(color === "SILVER"){
     hex = "#C0C0C0";
-  } else if(color === "GRAY"){
+  } else if(color === "GRAY" || color === "GREY"){
     hex = "#808080";
   } else if(color === "MAROON"){
     hex = "#800000";
@@ -39,8 +39,24 @@ function getHexStr(color) {
     hex = "#FF00FF";
   } else if(color === "PURPLE"){
     hex = "#800080";
+  } else if(color === "BROWN"){
+    hex = "#A52A2A";
+  } else if(color === "PINK"){
+    hex = "#FFC0CB";
+  } else if(color === "INDIGO"){
+    hex = "#4B0082";
+  } else if(color === "VIOLET"){
+    hex = "#EE82EE";
+  } else if(color === "TURQUOISE"){
+    hex = "#40E0D0";
+  } else if(color === "LAVENDER"){
+    hex = "#E6E6FA";
+  } else if(color === "BEIGE"){
+    hex = "#F5F5DC";
+  } else if(color === "CHOCOLATE"){
+    hex = "#D2691E";
   } else {
-    hex = "#000000";
+    throw new Error(`Unknown color code: ${color}`);
   }
   return hex;
 }
